@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { ArrowRight, Sparkles, Phone, Images } from "lucide-react";
 import hero from "@/assets/hero.jpg";
 import proprietor from "@/assets/proprietor.jpg";
-import logo from "@/assets/logo.png";
 
 export function Hero() {
   return (
