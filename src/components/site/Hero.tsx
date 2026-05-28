@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { ArrowRight, Sparkles, Phone, Images } from "lucide-react";
 import hero from "@/assets/hero.jpg";
 import proprietor from "@/assets/proprietor.jpg";
-import logo from "@/assets/logo.png";
 
 export function Hero() {
   return (
@@ -111,12 +110,6 @@ export function Hero() {
           transition={{ duration: 0.9, delay: 0.4 }}
           className="lg:col-span-5 relative mx-auto w-full max-w-md"
         >
-          <motion.img
-            src={logo}
-            alt=""
-            className="hidden lg:block absolute -top-10 -left-10 h-24 w-24 opacity-90 drop-shadow-2xl animate-float"
-            aria-hidden
-          />
           <div className="relative rounded-[2rem] bg-white/10 glass-dark border border-white/20 p-6 shadow-elegant">
             <div className="absolute inset-0 rounded-[2rem] bg-gradient-to-br from-gold/20 via-transparent to-transparent pointer-events-none" />
             <div className="relative overflow-hidden rounded-[1.5rem]">
