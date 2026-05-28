@@ -114,7 +114,7 @@ export function Hero() {
           <motion.img
             src={logo}
             alt=""
-            className="absolute -top-10 -left-10 h-24 w-24 opacity-90 drop-shadow-2xl animate-float"
+            className="hidden lg:block absolute -top-10 -left-10 h-24 w-24 opacity-90 drop-shadow-2xl animate-float"
             aria-hidden
           />
           <div className="relative rounded-[2rem] bg-white/10 glass-dark border border-white/20 p-6 shadow-elegant">
