@@ -73,6 +73,12 @@ export function VisionMission() {
         </motion.div>
       </div>
 
+      <motion.img
+        src={logo}
+        alt=""
+        aria-hidden
+        className="hidden lg:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-40 w-40 opacity-10 animate-float"
+      />
     </section>
   );
 }
